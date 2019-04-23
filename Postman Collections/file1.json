@@ -1,0 +1,76 @@
+{
+  "info": {
+    "_postman_id": "5e1fb8b3-df0a-4652-bedb-74b53c4e4182",
+    "name": "batman and robin",
+    "description": "I am batman.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "https://www.google.com/search?q=batman",
+      "_postman_id": "14dd2d3c-7594-4184-a691-df84b3b0c73b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.google.com/search?q=batman",
+          "protocol": "https",
+          "host": [
+            "www",
+            "google",
+            "com"
+          ],
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "batman"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "1a35e578-83f6-41ac-b722-c397356bee8d",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "d6fa9875-daba-4572-83c9-cf3a12ea24c0",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "6c213096-a4e3-44c3-80eb-f20351c8d170",
+      "key": "hahaha",
+      "value": "11111",
+      "type": "string"
+    },
+    {
+      "id": "9956c55b-da87-46b5-994b-3c634c5d99d9",
+      "key": "fhihfi",
+      "value": "hfihid",
+      "type": "string"
+    }
+  ]
+}
